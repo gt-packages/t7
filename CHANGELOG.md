@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v0.0.4
+
+[compare changes](https://github.com/gabortorma/mwm-nitro-plugin-template/compare/v0.0.3...v0.0.4)
+
+### 🩹 Fixes
+
+- Remove unused deps. ([8bf9f5c](https://github.com/gabortorma/mwm-nitro-plugin-template/commit/8bf9f5c))
+
+### 🏡 Chore
+
+- **release:** V0.0.3 ([f157a5e](https://github.com/gabortorma/mwm-nitro-plugin-template/commit/f157a5e))
+- Upgrade all deps to node 22 ([7cacea3](https://github.com/gabortorma/mwm-nitro-plugin-template/commit/7cacea3))
+
+### ❤️ Contributors
+
+- Gábor Torma <gabor@torma.dev>
+
 ## v0.0.3
 
 [compare changes](https://github.com/gabortorma/mwm-nitro-plugin-template/compare/v0.0.2...v0.0.3)
