@@ -6,7 +6,7 @@
   "description": "My new Nitro plugin",
   "license": "MIT",
   "repository": {
-    "url": "git@github.com:gabortorma/mwm-nitro-plugin-template"
+    "url": "git+ssh://git@github.com/gabortorma/mwm-nitro-plugin-template.git"
   },
   "keywords": [
     "nitro",
