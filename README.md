@@ -1,29 +1,19 @@
-<!--
-Get your module up and running quickly.
-
-Find and replace all on all files (CMD+SHIFT+F):
-- Name: My Plugin
-- Package name: gabortorma/mwm-nitro-plugin-template
-- Description: My new Nitro plugin
--->
-
-# My Plugin
+# mwm-nitro-plugin-template
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 [![code style][code-style-src]][code-style-href]
 
-My new Nuxt module for doing amazing things.
+_description_
 
-- [✨ &nbsp;Release Notes](/CHANGELOG.md)
-  <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/mwm-nitro-plugin-template?file=playground%2Fapp.vue) -->
-  <!-- - [📖 &nbsp;Documentation](https://example.com) -->
+- [✨ Release Notes](/CHANGELOG.md)
+- [🏀 Online playground](https://stackblitz.com/github/gabortorma/mwm-nitro-plugin-template?file=playground%2Fapp.vue)
 
 ## Install
 
 ```bash
-pnpm install add -D mwm-nitro-plugin-template
+pnpm install add -D @gabortorma/mwm-nitro-plugin-template
 ```
 
 ## Usage
@@ -49,37 +39,6 @@ export default defineNitroConfig({
   plugins: ['@gabortorma/mwm-nitro-plugin-template']
 })
 ```
-
-## Contribution
-
-<details>
-  <summary>Local development</summary>
-
-```bash
-# Install dependencies
-npm install
-
-# Generate type stubs
-npm run dev:prepare
-
-# Develop with the playground
-npm run dev
-
-# Build the playground
-npm run dev:build
-
-# Run ESLint
-npm run lint
-
-# Run Vitest
-npm run test
-npm run test:watch
-
-# Release new version
-npm run release
-```
-
-</details>
 
 <!-- Badges -->
 
