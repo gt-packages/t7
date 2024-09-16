@@ -1,0 +1,58 @@
+{
+  "name": "@gabortorma/mwm-nitro-plugin-template",
+  "type": "module",
+  "version": "0.0.7",
+  "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c",
+  "description": "My new Nitro plugin",
+  "license": "MIT",
+  "repository": {
+    "url": "git+ssh://git@github.com/gabortorma/mwm-nitro-plugin-template.git"
+  },
+  "keywords": [
+    "nitro",
+    "nitro-plugin",
+    "template"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepack": "unbuild",
+    "dev": "nuxi dev playground",
+    "dev:build": "nuxi build playground",
+    "dev:prepare": "nuxi prepare playground",
+    "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish --access public && git push --follow-tags",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "test:types": "vue-tsc --noEmit && cd playground && vue-tsc --noEmit",
+    "postinstall": "nuxi prepare && nuxi prepare playground && nitro prepare"
+  },
+  "dependencies": {
+    "h3": "^1.12.0",
+    "nitropack": "^2.9.7"
+  },
+  "devDependencies": {
+    "@gabortorma/antfu-eslint-config": "^1.5.1",
+    "@nuxt/devtools": "^1.4.2",
+    "@nuxt/schema": "^3.13.2",
+    "@nuxt/test-utils": "^3.14.2",
+    "@types/node": "^22.5.5",
+    "changelogen": "^0.5.5",
+    "nuxt": "^3.13.2",
+    "typescript": "^5.6.2",
+    "unbuild": "^2.0.0",
+    "vitest": "^2.1.1",
+    "vue-tsc": "^2.1.6"
+  }
+}
