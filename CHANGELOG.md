@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v0.0.7
+
+[compare changes](https://github.com/gabortorma/mwm-nitro-plugin-template/compare/v0.0.6...v0.0.7)
+
+### 📖 Documentation
+
+- Update README ([002689b](https://github.com/gabortorma/mwm-nitro-plugin-template/commit/002689b))
+
+### 🏡 Chore
+
+- Upgrade all deps. ([837a6a8](https://github.com/gabortorma/mwm-nitro-plugin-template/commit/837a6a8))
+
+### ❤️ Contributors
+
+- Gábor Torma <gabor@torma.dev>
+
 ## v0.0.6
 
 [compare changes](https://github.com/gabortorma/mwm-nitro-plugin-template/compare/v0.0.5...v0.0.6)
